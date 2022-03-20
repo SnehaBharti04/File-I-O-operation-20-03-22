@@ -9,7 +9,7 @@ class student{
     char branch[50];
     char location[50];
 
-    void getstudentinfo(){
+    void getStudInfo(){
         cout<<"enter ID:"<<endl;
         cin>>id;
         cout<<"enter student name"<<endl;
@@ -44,7 +44,7 @@ class student{
 	}
 	}
 	if(flag==0)
-	cout<<"No records found for the entered id please enter valid id"<<endl;
+	cout<<"No records found for the entered id please re-enter valid id"<<endl;
         file.close();
     }
 };
