@@ -6,7 +6,7 @@ using namespace std
 int main() {
     ifstream plate("data.txt");
     int count = 0;
-    string search = "Culture";
+    string search = "the";
     string temp;
     while (plate >> temp) {
         if (temp == search) {
